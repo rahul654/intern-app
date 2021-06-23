@@ -4,7 +4,6 @@ import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
 import Home from './Components/Home'
 import PageOne from './Components/PageOne'
 import PageTwo from './Components/PageTwo'
-import PageThree from './Components/PageThree'
 
 class App extends Component  {
   render() {
@@ -15,7 +14,6 @@ class App extends Component  {
             <Route path="/" exact component={Home} />
             <Route path="/page1" exact component={PageOne} />
             <Route path="/page2" exact component={PageTwo} />
-            <Route path="/page3" exact component={PageThree} />
           </Switch>
         </Router>
       </div>
