@@ -1,0 +1,109 @@
+.pageone__main {
+  &_heading {
+    padding: 10px 180px;
+    @media only screen and (max-width: 900px) {
+      padding: 10px 40px;
+    }
+    @media only screen and (max-width: 540px) {
+      padding: 10px 20px;
+    }
+  }
+}
+
+.pageone__main_heading_intern {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 20px 0 0 0;
+  @media only screen and (min-width: 1300px) {
+    margin: 80px 350px 30px 350px;
+  }
+}
+
+.pageone__main_files {
+  background-color: #e9edef;
+  padding: 20px 60px;
+  @media only screen and (max-width: 900px) {
+    padding: 20px 40px;
+  }
+  @media only screen and (max-width: 540px) {
+    padding: 20px 20px;
+  }
+}
+
+.pageone__main_files_main {
+  width: 100%;
+  border: 1px solid gray;
+  border-style: dashed;
+  border-radius: 10px;
+
+  padding: 15px;
+  @media only screen and (max-width: 540px) {
+    padding: 8px;
+  }
+}
+
+.pageone__main_files_main_name{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  background-color:white;
+  border-radius: 8px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.pageone__main_files_main_name_uploaded{
+  border: 1px solid white;
+  border-radius: 8px;
+  margin: 10px 0;
+
+  & > div {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color:white;
+    padding: 10px;
+    border-radius: 8px;
+  }
+}
+
+.pageone__main_files_main_drag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  @media only screen and (max-width: 540px) {
+    font-size: 18px;
+  }
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.pageone__main_files_main_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & > div {
+    padding: 15px;
+    border-radius: 9px;
+    color: white;
+    background-color: green;
+  }
+}
+
+.pageone__main_files_main_supported {
+  margin: 20px 0 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pageone__main_files_main_filesize {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
